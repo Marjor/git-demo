@@ -1,10 +1,13 @@
 # GIT
+
 	源代码管理工具
 	SVN、CVS、VSS、git都是版本管理工具
 ## GIT安装
+
 	+ 32位
 	+ 64位
 ## GIT使用
+
 	+ git init:初始化一个仓库目录.git
 	+ 用户信息配置
 		- 配置用户名
@@ -39,6 +42,7 @@
 			注意：合并过程中，遇到冲突，需要手动处理，处理完再提交一次。
 ## GitHub
 	是一个网站，相当于git的服务器。该站允许其他人通过git上传下载代码。
+
 	+ 提交代码到GitHub上
 		首先，在GitHub上创建一个仓库，创建完成后会生成一个仓库连接。
 		然后，git push https://github.com/Marjor/git-demo.git master：把当前主分支的代码根据连接上传到GitHub的主分支上。
